@@ -1,4 +1,4 @@
-#QUESTAO 2
+#QUESTAO 2 => calcular a sequencia de Fibonacci e indicar se o número passado está pertencendo ou não a sequência
 def fibonacci(num):
   fibon = [0,1]
   i = 0
@@ -18,9 +18,11 @@ if(fib):
 else:
   print("O numero nao pertence a sequencia de fibonacci")
 
+#Resultado esperado: O numero nao pertence a sequencia de fibonacci
 
 
-#QUESTAO 3
+
+#QUESTAO 3 => Calcular os maiores e menores valores de faturamento mensal de uma distribuidora, além de o número de dias que o faturamento foi maior que a méia mensal
 import json
 import pandas as pd
 
@@ -73,10 +75,13 @@ print("Menor valor de faturamento:", x[0], "(dia:", x[1], ")")
 print("Maior valor de faturamento:", y[0], "(dia:", y[1], ")")
 print("Quantidade de dias que faturaram mais que a media mensal:", z)
 
+#Resultado Esperado: Menor valor de faturamento: 373.7838 (dia: 14 )
+#                    Maior valor de faturamento: 48924.2448 (dia: 16 )
+#                    Quantidade de dias que faturaram mais que a media mensal: 10
 
 
 
-# QUESTAO 4
+# QUESTAO 4 => calculo do percentual da representação de cada estado em um total mensal
 sp = 67_836.43
 rj = 36_678.66
 mg = 29_229.88
@@ -87,8 +92,11 @@ def calculoPercentual(estado, total):
   return round(((estado / total) * 100), 3)
 print(calculoPercentual(sp, totalMensal))
 
+#Resultado Esperado: 37.528
 
-#QUESTAO 5
+
+
+#QUESTAO 5 => inverter uma string
 def inversaoStr(palav):
   inv = []
   tam = len(palav) -1
@@ -98,3 +106,7 @@ def inversaoStr(palav):
   return inv
 
 print(inversaoStr(input("insira uma palavra para ser invertida: ")))
+
+
+#Resultado Esperado:   insira uma palavra para ser invertida: palavra
+                        ['a', 'r', 'v', 'a', 'l', 'a', 'p']
