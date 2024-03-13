@@ -1,2 +1,3 @@
-# Processo_TargetSistemas
-Repositório para o armazenamento dos códigos feitos em Phyton na etapa de avaliação da Target Sistemas
+# Etapa Target Sistemas
+### Beatriz Brito Oliveira
+#### Repositorio para armazenar o resultado das questões solicitadas, feitas em Phyton 
